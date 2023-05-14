@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		001AB9272A10D7FF0056A9CE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 001AB9262A10D7FF0056A9CE /* main.cpp */; };
+		001AB93A2A10D9910056A9CE /* demo.c in Sources */ = {isa = PBXBuildFile; fileRef = 001AB9392A10D9910056A9CE /* demo.c */; };
+		001AB93C2A10DA640056A9CE /* Prog1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 001AB93B2A10DA640056A9CE /* Prog1.cpp */; };
+		001AB93E2A10DE360056A9CE /* Prog2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 001AB93D2A10DE360056A9CE /* Prog2.cpp */; };
+		001AB9402A10DF1C0056A9CE /* Prog3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 001AB93F2A10DF1C0056A9CE /* Prog3.cpp */; };
+		001AB9422A10DFD80056A9CE /* Prog4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 001AB9412A10DFD80056A9CE /* Prog4.cpp */; };
+		001AB9452A10E1900056A9CE /* Prog5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 001AB9442A10E1900056A9CE /* Prog5.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +29,20 @@
 
 /* Begin PBXFileReference section */
 		001AB9232A10D7FF0056A9CE /* HPC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HPC; sourceTree = BUILT_PRODUCTS_DIR; };
-		001AB9262A10D7FF0056A9CE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		001AB92F2A10D8850056A9CE /* INSTALL_RECEIPT.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = INSTALL_RECEIPT.json; sourceTree = "<group>"; };
+		001AB9312A10D8850056A9CE /* libomp.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = libomp.rb; sourceTree = "<group>"; };
+		001AB9332A10D8850056A9CE /* ompt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ompt.h; sourceTree = "<group>"; };
+		001AB9342A10D8850056A9CE /* omp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = omp.h; sourceTree = "<group>"; };
+		001AB9352A10D8850056A9CE /* omp-tools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "omp-tools.h"; sourceTree = "<group>"; };
+		001AB9372A10D8850056A9CE /* libomp.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libomp.dylib; sourceTree = "<group>"; };
+		001AB9382A10D8850056A9CE /* libomp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libomp.a; sourceTree = "<group>"; };
+		001AB9392A10D9910056A9CE /* demo.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = demo.c; sourceTree = "<group>"; };
+		001AB93B2A10DA640056A9CE /* Prog1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Prog1.cpp; sourceTree = "<group>"; };
+		001AB93D2A10DE360056A9CE /* Prog2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Prog2.cpp; sourceTree = "<group>"; };
+		001AB93F2A10DF1C0056A9CE /* Prog3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Prog3.cpp; sourceTree = "<group>"; };
+		001AB9412A10DFD80056A9CE /* Prog4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Prog4.cpp; sourceTree = "<group>"; };
+		001AB9432A10E0C20056A9CE /* run.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = run.sh; sourceTree = "<group>"; };
+		001AB9442A10E1900056A9CE /* Prog5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Prog5.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +61,7 @@
 			children = (
 				001AB9252A10D7FF0056A9CE /* HPC */,
 				001AB9242A10D7FF0056A9CE /* Products */,
+				001AB92D2A10D8850056A9CE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,9 +76,62 @@
 		001AB9252A10D7FF0056A9CE /* HPC */ = {
 			isa = PBXGroup;
 			children = (
-				001AB9262A10D7FF0056A9CE /* main.cpp */,
+				001AB9392A10D9910056A9CE /* demo.c */,
+				001AB93B2A10DA640056A9CE /* Prog1.cpp */,
+				001AB93D2A10DE360056A9CE /* Prog2.cpp */,
+				001AB93F2A10DF1C0056A9CE /* Prog3.cpp */,
+				001AB9412A10DFD80056A9CE /* Prog4.cpp */,
+				001AB9442A10E1900056A9CE /* Prog5.cpp */,
+				001AB9432A10E0C20056A9CE /* run.sh */,
 			);
 			path = HPC;
+			sourceTree = "<group>";
+		};
+		001AB92D2A10D8850056A9CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				001AB92E2A10D8850056A9CE /* 16.0.3 */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		001AB92E2A10D8850056A9CE /* 16.0.3 */ = {
+			isa = PBXGroup;
+			children = (
+				001AB92F2A10D8850056A9CE /* INSTALL_RECEIPT.json */,
+				001AB9302A10D8850056A9CE /* .brew */,
+				001AB9322A10D8850056A9CE /* include */,
+				001AB9362A10D8850056A9CE /* lib */,
+			);
+			name = 16.0.3;
+			path = ../../../../../opt/homebrew/Cellar/libomp/16.0.3;
+			sourceTree = "<group>";
+		};
+		001AB9302A10D8850056A9CE /* .brew */ = {
+			isa = PBXGroup;
+			children = (
+				001AB9312A10D8850056A9CE /* libomp.rb */,
+			);
+			path = .brew;
+			sourceTree = "<group>";
+		};
+		001AB9322A10D8850056A9CE /* include */ = {
+			isa = PBXGroup;
+			children = (
+				001AB9332A10D8850056A9CE /* ompt.h */,
+				001AB9342A10D8850056A9CE /* omp.h */,
+				001AB9352A10D8850056A9CE /* omp-tools.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		001AB9362A10D8850056A9CE /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				001AB9372A10D8850056A9CE /* libomp.dylib */,
+				001AB9382A10D8850056A9CE /* libomp.a */,
+			);
+			path = lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +191,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				001AB9272A10D7FF0056A9CE /* main.cpp in Sources */,
+				001AB9422A10DFD80056A9CE /* Prog4.cpp in Sources */,
+				001AB93E2A10DE360056A9CE /* Prog2.cpp in Sources */,
+				001AB9402A10DF1C0056A9CE /* Prog3.cpp in Sources */,
+				001AB9452A10E1900056A9CE /* Prog5.cpp in Sources */,
+				001AB93A2A10D9910056A9CE /* demo.c in Sources */,
+				001AB93C2A10DA640056A9CE /* Prog1.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

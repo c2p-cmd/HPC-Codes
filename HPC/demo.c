@@ -1,0 +1,23 @@
+//
+//  demo.c
+//  HPC
+//
+//  Created by Sharan Thakur on 14/05/23.
+//
+
+#include "omp.h"
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char* argv[])
+{
+ 
+    // Beginning of parallel region
+    #pragma omp parallel
+    {
+ 
+        printf("Hello World... from thread = %d\n",
+               omp_get_thread_num());
+    }
+    // Ending of parallel region
+}
