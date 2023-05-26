@@ -15,4 +15,8 @@ echo ""
 
 read -p "FileName? " fileName
 
+# for macOS
 clang++ -Xclang -fopenmp $LDFLAGS $CPPFLAGS  -lomp $fileName -o output && ./output
+
+# for Linux
+g++ -fopenmp $LDFLAGS $CPPFLAGS  -lomp $fileName -o output && ./output
