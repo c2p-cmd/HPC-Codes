@@ -43,6 +43,9 @@
 		001AB9412A10DFD80056A9CE /* Prog4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Prog4.cpp; sourceTree = "<group>"; };
 		001AB9432A10E0C20056A9CE /* run.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = run.sh; sourceTree = "<group>"; };
 		001AB9442A10E1900056A9CE /* Prog5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Prog5.cpp; sourceTree = "<group>"; };
+		00E355E72A210AD500B4976A /* DL 1.ipynb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "DL 1.ipynb"; sourceTree = "<group>"; };
+		00E355E82A210ADB00B4976A /* DL 2(B. movie).ipynb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "DL 2(B. movie).ipynb"; sourceTree = "<group>"; };
+		00E355E92A210AE200B4976A /* DL 3 Fashion.ipynb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "DL 3 Fashion.ipynb"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +79,9 @@
 		001AB9252A10D7FF0056A9CE /* HPC */ = {
 			isa = PBXGroup;
 			children = (
-				001AB9392A10D9910056A9CE /* demo.c */,
+				00E355E62A210AB700B4976A /* Dl */,
 				001AB93B2A10DA640056A9CE /* Prog1.cpp */,
+				001AB9392A10D9910056A9CE /* demo.c */,
 				001AB93D2A10DE360056A9CE /* Prog2.cpp */,
 				001AB93F2A10DF1C0056A9CE /* Prog3.cpp */,
 				001AB9412A10DFD80056A9CE /* Prog4.cpp */,
@@ -132,6 +136,16 @@
 				001AB9382A10D8850056A9CE /* libomp.a */,
 			);
 			path = lib;
+			sourceTree = "<group>";
+		};
+		00E355E62A210AB700B4976A /* Dl */ = {
+			isa = PBXGroup;
+			children = (
+				00E355E92A210AE200B4976A /* DL 3 Fashion.ipynb */,
+				00E355E82A210ADB00B4976A /* DL 2(B. movie).ipynb */,
+				00E355E72A210AD500B4976A /* DL 1.ipynb */,
+			);
+			path = Dl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
