@@ -2,7 +2,6 @@
 //  Prog5.cpp
 //  HPC - Implement Min, Max, Sum and Average operations using Parallel Reduction.
 //
-//  Created by Sharan Thakur on 14/05/23.
 //
 
 #include <stdio.h>

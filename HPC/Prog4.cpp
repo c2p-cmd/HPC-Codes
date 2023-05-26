@@ -2,7 +2,6 @@
 //  Prog4.cpp
 //  HPC - MergeSort
 //
-//  Created by Sharan Thakur on 14/05/23.
 //
 
 #include <stdio.h>

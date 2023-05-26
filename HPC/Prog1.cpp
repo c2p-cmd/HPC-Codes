@@ -2,7 +2,6 @@
 //  Prog1.cpp
 //  HPC - BFS
 //
-//  Created by Sharan Thakur on 14/05/23.
 //
 
 #include <stdio.h>

@@ -3,7 +3,6 @@
 //  HPC - Parallel Bubble Sort using OpenMP
 
 //
-//  Created by Sharan Thakur on 14/05/23.
 //
 
 #include <stdio.h>

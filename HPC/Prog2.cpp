@@ -2,7 +2,6 @@
 //  Prog2.cpp
 //  HPC - DFS
 //
-//  Created by Sharan Thakur on 14/05/23.
 //
 
 #include <stdio.h>
